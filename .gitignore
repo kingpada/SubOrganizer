@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local secrets/config
+.env
+.env.*
+config.toml
+local.config.toml
+*.token
+*.secret
+credentials.json
+
+# Logs/exports
+*.log
+logs/
+exports/
+exports/**/*.csv
+exports/**/*.json
+exports/**/*.txt
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+__pyinstaller__/
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

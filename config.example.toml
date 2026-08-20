@@ -1,0 +1,13 @@
+app_version = "0.1.0"
+user_agent_app_id = "reddit-subreddit-exporter"
+
+[oauth]
+client_id = "REPLACE_ME"
+redirect_uri = "http://localhost:8080"
+
+[script]
+client_id = "REPLACE_ME"
+username = "OPTIONAL_CONVENIENCE_ONLY"
+
+[ui]
+remember_window_geometry = true
